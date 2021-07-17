@@ -8,7 +8,7 @@ class UI:
     def __init__(self):
         pygame.init()
         pygame.mixer.init()  # For sound
-        pygame.display.set_caption("Xx_HardGamers_NoScoper_xX")
+        pygame.display.set_caption("HardGamers Monitor")
         self.screen: pygame.Surface = pygame.display.set_mode((300, 160))
         self.clock: pygame.time.Clock = pygame.time.Clock()  # For syncing the FPS
         self.running: bool = True
